@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "brand": "BARRY",
+    "tagline": "interiors",
+    "heading": ["Elevate Your Interior",
+    " with Sophisticated Design"] ,
+    "subtext": "Discover modern luxury living spaces crafted with minimal elegance.",
+    "buttons": [
+      { "label": "Explore Portfolio", "variant": "primary" },
+      { "label": "View Services", "variant": "outline" }
+    ],
+    "navLinks": ["Home", "Portfolio", "Services", "About"]
+  },
+
+  "features": [
+    {
+      "id": 1,
+      "icon": "dashboard",
+      "title": "Modern Spaces",
+      "description": "Thoughtfully crafted interiors where contemporary form meets enduring elegance. Every space, a statement."
+    },
+    {
+      "id": 2,
+      "icon": "lamp",
+      "title": "Elegant Lighting",
+      "description": "Curated lighting that does more than illuminate. It sets the atmosphere, defines the space, and elevates every detail."
+    },
+    {
+      "id": 3,
+      "icon": "sofa",
+      "title": "Luxury Living",
+      "description": "We create homes that go beyond aesthetics, crafting environments where everyday moments feel exceptional."
+    }
+  ],
+
+  "portfolio": {
+    "heading": "Refined and Contemporary",
+    "subtext": "Stunning interiors designed to inspire simplicity and elegance.",
+    "slides": [
+      { "id": 1, "image": "/images/Home interior designs.jpg", "label": "Living Room" },
+      { "id": 2, "image": "/images/download (10).jpg", "label": "Bedroom" },
+      { "id": 3, "image": "/images/Mesa de cristal para comedor.jpg", "label": "Dining Space" },
+      { "id": 4, "image": "/images/Office Bookshelves.jpg", "label": "Study Room" }
+    ]
+  }
+}
