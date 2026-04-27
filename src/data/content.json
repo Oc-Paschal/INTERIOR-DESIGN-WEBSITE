@@ -42,5 +42,43 @@
       { "id": 3, "image": "/images/Mesa de cristal para comedor.jpg", "label": "Dining Space" },
       { "id": 4, "image": "/images/Office Bookshelves.jpg", "label": "Study Room" }
     ]
+  },
+
+  "stats": [
+    { "value": 15, "suffix": "+", "label": "Years of Experience" },
+    { "value": 98, "suffix": "%", "label": "Client Satisfaction" },
+    { "value": 100, "suffix": "%", "label": "Dedication to Quality" }
+  ],
+
+  "footer": {
+    "brand": "BARRY",
+    "tagline": "interiors",
+    "description": "Crafting modern luxury living spaces with minimal elegance and timeless sophistication.",
+    "socials": [
+      { "label": "Instagram", "href": "#" },
+      { "label": "Twitter", "href": "#" },
+      { "label": "Facebook", "href": "#" }
+    ],
+    "links": [
+      { "label": "Home", "path": "/" },
+      { "label": "Portfolio", "path": "/portfolio" },
+      { "label": "Services", "path": "/services" },
+      { "label": "About", "path": "/about" },
+      { "label": "Contact", "path": "/contact" }
+    ],
+    "services": [
+      "Interior Design",
+      "Space Planning",
+      "Lighting Design",
+      "Furniture Curation",
+      "Project Management"
+    ],
+    "contact": [
+      { "type": "mail", "text": "hello@barryinteriors.com" },
+      { "type": "phone", "text": "+234 800 000 0000" },
+      { "type": "location", "text": "Lagos, Nigeria" }
+    ]
   }
+
+
 }
