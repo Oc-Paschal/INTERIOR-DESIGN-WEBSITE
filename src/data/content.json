@@ -92,9 +92,19 @@
     { "id": 8, "image": "/images/Mesa de cristal para comedor.jpg", "label": "Dining Space", "category": "Dining Space" },
     { "id": 9, "image": "/images/Office Bookshelves.jpg", "label": "Study Room", "category": "Study Room" },
     { "id": 10, "image": "/images/Home interior designs.jpg", "label": "Modern Living", "category": "Living Room" },
-    { "id": 11, "image": "/images/download (10).jpg", "label": "Master Bedroom", "category": "Bedroom" }
+    { "id": 11, "image": "/images/download (10).jpg", "label": "Master Bedroom", "category": "Bedroom" },
+     { "id": 12, "image": "/images/20 Basement Living Room Ideas for Creating a Perfect Entertainment Zone.jpg", "label": "Living Room", "category": "Living Room" },
+     { "id": 13, "image": "/images/download (14).jpg", "label": "Living Room", "category": "Living Room" },
+     { "id": 14, "image": "/images/download (15).jpg", "label": "Living Room", "category": "Living Room" },
+     { "id": 15, "image": "/images/download (16).jpg", "label": "Living Room", "category": "Living Room" },
+     { "id": 16, "image": "/images/download (17).jpg", "label": "Living Room", "category": "Living Room" },
+     { "id": 17, "image": "/images/download (18).jpg", "label": "Living Room", "category": "Living Room" },
+     { "id": 18, "image": "/images/Mid Century Geometric Diamond Rug - Earth Tones, Modern Living Room Carpet.jpg", "label": "Living Room", "category": "Living Room" },
+     { "id": 19, "image": "/images/Modern Entertainment Corner — Minimal Luxury with Warm LED Glow.jpg", "label": "Living Room", "category": "Living Room" }
+    
   ]
 }
 
-
 }
+
+
