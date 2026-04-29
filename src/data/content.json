@@ -100,7 +100,19 @@
      { "id": 16, "image": "/images/download (17).jpg", "label": "Living Room", "category": "Living Room" },
      { "id": 17, "image": "/images/download (18).jpg", "label": "Living Room", "category": "Living Room" },
      { "id": 18, "image": "/images/Mid Century Geometric Diamond Rug - Earth Tones, Modern Living Room Carpet.jpg", "label": "Living Room", "category": "Living Room" },
-     { "id": 19, "image": "/images/Modern Entertainment Corner — Minimal Luxury with Warm LED Glow.jpg", "label": "Living Room", "category": "Living Room" }
+     { "id": 19, "image": "/images/Modern Entertainment Corner — Minimal Luxury with Warm LED Glow.jpg", "label": "Living Room", "category": "Living Room" },
+      { "id": 20, "image": "/images/download (19).jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+      { "id": 21, "image": "/images/download (20).jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+      { "id": 22, "image": "/images/download (21).jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+      { "id": 23, "image": "/images/Minimal furniture, sleek finishes, and stylish lighting make this modern bedroom design perfect for apartments and contemporary homes_.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+      { "id": 24, "image": "/images/download (22).jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+     
+      { "id": 25, "image": "/images/ห้องต่างๆ.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+      { "id": 26, "image": "/images/Luxury Modern Big Bedroom with Elegant Fall Ceiling & TV Wall Design.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+      { "id": 27, "image": "/images/Luxury Modern Bedroom Interior Design with LED Ceiling, Marble Wall Panel & Walk-in Wardrobe.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+      { "id": 28, "image": "/images//Small Bedroom Ideas 2026 _ Cozy Aesthetic, Smart Storage & Elegant Decor.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+      { "id": 29, "image": "/images/Luxury Blue & Grey Modern Bedroom Interior –Home Decor Inspiration_.jpg", "label": "Bedroom Suite", "category": "Bedroom" }
+     
     
   ]
 }
