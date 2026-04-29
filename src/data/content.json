@@ -78,7 +78,23 @@
       { "type": "phone", "text": "+234 800 000 0000" },
       { "type": "location", "text": "Lagos, Nigeria" }
     ]
-  }
+  },
+  
+  "portfolioPage": {
+  "items": [
+    { "id": 1, "image": "/images/Home interior designs.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 2, "image": "/images/Contemporary Living Room with Hidden LED Lighting.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 3, "image": "/images/download (11).jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 4, "image": "/images/download (12).jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 5, "image": "/images/download (13).jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 6, "image": "/images/Simple Warm Modern Home Virtual Background _ Zoom Living Room _ Zoom Background Living Room _ Zoom Backgrounds _ Virtual Background _ - Etsy.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 7, "image": "/images/download (10).jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 8, "image": "/images/Mesa de cristal para comedor.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 9, "image": "/images/Office Bookshelves.jpg", "label": "Study Room", "category": "Study Room" },
+    { "id": 10, "image": "/images/Home interior designs.jpg", "label": "Modern Living", "category": "Living Room" },
+    { "id": 11, "image": "/images/download (10).jpg", "label": "Master Bedroom", "category": "Bedroom" }
+  ]
+}
 
 
 }
