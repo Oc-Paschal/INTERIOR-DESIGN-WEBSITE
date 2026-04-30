@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <div
-      style={{ backgroundImage: "url('/images/Modern Living Room Zoom Background (Digital Download).jpg')" }}
+      style={{ backgroundImage: "url('/images/Simple Warm Modern Home Virtual Background _ Zoom Living Room _ Zoom Background Living Room _ Zoom Backgrounds _ Virtual Background _ - Etsy.jpg')" }}
       className="bg-center bg-cover h-screen filter brightness-90"
     >
       <div className="absolute inset-0 bg-black/70"></div>
