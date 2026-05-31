@@ -5,22 +5,22 @@ import { motion, AnimatePresence } from "framer-motion";
 const slides = [
   {
     id: 1,
-    image: " /images/Home interior designs.jpg",
+    image: "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544149/download_11_kft7hb.jpg",
     label: "Living Room",
   },
   {
     id: 2,
-    image: "/images/download (10).jpg",
+    image: "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544126/23_Trendy_Boho_Coastal_Bedroom_Ideas_You_Will_Love_kmj59b.jpg",
     label: "Bedroom",
   },
   {
     id: 3,
-    image: "/images/Mesa de cristal para comedor.jpg",
+    image: "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544117/51_Dining_Room_Design_Ideas_that_Embrace_Bold_Contrasts_xf6rv7.jpg",
     label: "Dining Space",
   },
   {
     id: 4,
-    image: "/images/Office Bookshelves_ Transforming Your Workspace into an Inspirational Sanctuary - Fuss Free Home.jpg",
+    image: "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544115/Office_Bookshelves__Transforming_Your_Workspace_into_an_Inspirational_Sanctuary_-_Fuss_Free_Home_1_-_Copy_ughi3b.jpg",
     label: "Study Room",
   },
 ];
