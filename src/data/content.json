@@ -81,6 +81,36 @@
   },
   
   "portfolioPage": {
+  "categories": {
+    "Living Room": {
+      "concept": "Contemporary Open-Plan Living",
+      "description": "Our living room designs are built around the idea that a space should feel both luxurious and liveable. We work with engineered hardwood flooring, custom sectional sofas in premium bouclé or velvet fabric, and floor-to-ceiling drapes that add height and drama to any room. Recessed LED lighting is layered with statement pendant fixtures to create warmth at every hour of the day. Every piece of furniture is handpicked to ensure the space feels curated, not cluttered.",
+      "materials": "Engineered hardwood flooring · Bouclé and velvet upholstery · Tempered glass · Brushed brass fixtures · Custom millwork",
+      "size": "30 – 80 sqm",
+      "price": "Starting from ₦2,500,000"
+    },
+    "Bedroom": {
+      "concept": "Luxury Retreat and Rest",
+      "description": "A bedroom should be the most personal space in any home. Our bedroom designs focus on creating a sanctuary — a place that slows you down the moment you walk in. We use layered lighting systems with dimmable LEDs, statement headboards upholstered in premium linen or leather, and built-in wardrobes with soft-close mechanisms. Colour palettes are intentionally calm — deep charcoals, warm creams, and muted blues that promote rest and relaxation.",
+      "materials": "Linen and leather upholstery · Marble accents · LED strip lighting · Solid wood panels · Custom built-in wardrobes",
+      "size": "20 – 50 sqm",
+      "price": "Starting from ₦1,800,000"
+    },
+    "Dining Space": {
+      "concept": "Elegant Dining Experience",
+      "description": "We believe dining should feel like an occasion every single day. Our dining room designs are centred around a statement table — whether that is solid black walnut, tempered glass, or hand-finished marble — surrounded by upholstered chairs that are as comfortable as they are beautiful. Lighting plays a major role, with oversized pendant fixtures or crystal chandeliers positioned precisely over the table to create intimacy and focus. Every detail from the wall panelling to the tableware display is considered.",
+      "materials": "Black walnut and marble table tops · Upholstered dining chairs · Crystal pendant lighting · Fluted wall panels · Hardwood flooring",
+      "size": "25 – 60 sqm",
+      "price": "Starting from ₦1,200,000"
+    },
+    "Study Room": {
+      "concept": "Inspiring Workspace Design",
+      "description": "A well-designed study should inspire focus and creativity in equal measure. Our study room designs combine functional shelving systems with warm ambient lighting to create a space that feels both productive and inviting. We use solid wood desks, ergonomic seating upholstered in premium fabric, and built-in bookshelves that double as display walls. Cable management is built into every design so the space always looks clean and intentional.",
+      "materials": "Solid oak and walnut desks · Built-in shelving · Ergonomic upholstered seating · Warm LED task lighting · Acoustic wall panels",
+      "size": "15 – 35 sqm",
+      "price": "Starting from ₦950,000"
+    }
+  },
   "items": [
     { "id": 1, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544147/download_13_vgvenp.jpg", "label": "Living Room", "category": "Living Room" },
     { "id": 2, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544149/download_11_kft7hb.jpg", "label": "Living Room", "category": "Living Room" },
@@ -93,42 +123,39 @@
     { "id": 9, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544115/Office_Bookshelves__Transforming_Your_Workspace_into_an_Inspirational_Sanctuary_-_Fuss_Free_Home_1_-_Copy_ughi3b.jpg", "label": "Study Room", "category": "Study Room" },
     { "id": 10, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544160/Modern_Entertainment_Corner_Minimal_Luxury_with_Warm_LED_Glow_focdly.jpg", "label": "Modern Living", "category": "Living Room" },
     { "id": 11, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544135/Dark_Elegant_Master_Bedroom_Ideas___Wood_Panels_Ambient_Lighting_Trends_vi35cu.jpg", "label": "Master Bedroom", "category": "Bedroom" },
-     { "id": 12, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544145/download_17_oqbcxl.jpg", "label": "Living Room", "category": "Living Room" },
-     { "id": 13, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544159/download_12_jckcr0.jpg", "label": "Living Room", "category": "Living Room" },
-     { "id": 14, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544145/download_15_jd1kpp.jpg", "label": "Living Room", "category": "Living Room" },
-     { "id": 15, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544157/Contemporary_Living_Room_with_Hidden_LED_Lighting_zqwqtu.jpg", "label": "Living Room", "category": "Living Room" },
-     { "id": 16, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544145/download_14_ypdbqp.jpg", "label": "Living Room", "category": "Living Room" },
-     { "id": 17, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544141/download_16_s6gddm.jpg", "label": "Living Room", "category": "Living Room" },
-      { "id": 18, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544134/download_20_tm8jbw.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
-      { "id": 19, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544136/Luxury_Blue_Grey_Modern_Bedroom_Interior_Home_Decor_Inspiration__imnmzc.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
-      { "id": 20, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544130/Luxury_Modern_Bedroom_Interior_Design_with_LED_Ceiling_Marble_Wall_Panel_Walk-in_Wardrobe_oyyklo.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
-      { "id": 21, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544126/23_Trendy_Boho_Coastal_Bedroom_Ideas_You_Will_Love_kmj59b.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
-      { "id": 22, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544133/Luxury_Modern_Big_Bedroom_with_Elegant_Fall_Ceiling_TV_Wall_Design_tilw1c.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
-      { "id": 23, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544132/Small_Bedroom_Ideas_2026___Cozy_Aesthetic_Smart_Storage_Elegant_Decor_q9owg6.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
-      { "id": 24, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544128/download_22_htesyd.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
-      { "id": 25, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544138/download_21_cbbc8x.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
-       { "id": 26, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544137/download_19_yrjlrr.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 27, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544121/Sala_de_jantar_toda_branca_com_plafon_de_cristais_e_mesa_16_cadeiras_vbkj5e.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 28, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544122/download_23_bixbcs.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 29, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544124/Dine_in_style_with_these_elegant_upholstered_chairs_designed_for_modern_living__cqc8y9.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 30, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544125/ImagiCraft_s_AIart_bytlme.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 31, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544116/26_Open_Dining_Areas_That_Still_Feel_Elevated_lwxi2g.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 32, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544115/Black_Walnut_Dining_Table__Steel_Trapezoid_Legs_Handcrafted_Reclaimed_Wood_obl5ow.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 33, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544117/51_Dining_Room_Design_Ideas_that_Embrace_Bold_Contrasts_xf6rv7.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 34, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544119/download_24_jcuszp.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 35, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544116/uulg7hezch2m7orporux.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 36, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544118/Elegant_Neutral_Dining_Room_Decor_with_a_Stunning_Dark_Wood_Table_evauz4.jpg", "label": "Dining Space", "category": "Dining Space" },
-       { "id": 37, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252205/Study-002_zekod6.jpg", "label": "Study Room", "category": "Study Room" },
-       { "id": 38, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252205/Study-003_yjbty3.jpg", "label": "Study Room", "category": "Study Room" },
-       { "id": 38, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252205/Study-003_yjbty3.jpg", "label": "Study Room", "category": "Study Room" },
-       { "id": 38, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252206/Study-004_hmzvdv.jpg", "label": "Study Room", "category": "Study Room" },
-       { "id": 39, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252207/Study-005_iwryrd.jpg", "label": "Study Room", "category": "Study Room" },
-       { "id": 40, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252208/Study-006_bot1gj.jpg", "label": "Study Room", "category": "Study Room" }
-    
-  
-     
-    
+    { "id": 12, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544145/download_17_oqbcxl.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 13, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544159/download_12_jckcr0.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 14, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544145/download_15_jd1kpp.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 15, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544157/Contemporary_Living_Room_with_Hidden_LED_Lighting_zqwqtu.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 16, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544145/download_14_ypdbqp.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 17, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544141/download_16_s6gddm.jpg", "label": "Living Room", "category": "Living Room" },
+    { "id": 18, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544134/download_20_tm8jbw.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 19, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544136/Luxury_Blue_Grey_Modern_Bedroom_Interior_Home_Decor_Inspiration__imnmzc.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 20, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544130/Luxury_Modern_Bedroom_Interior_Design_with_LED_Ceiling_Marble_Wall_Panel_Walk-in_Wardrobe_oyyklo.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 21, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544126/23_Trendy_Boho_Coastal_Bedroom_Ideas_You_Will_Love_kmj59b.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 22, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544133/Luxury_Modern_Big_Bedroom_with_Elegant_Fall_Ceiling_TV_Wall_Design_tilw1c.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 23, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544132/Small_Bedroom_Ideas_2026___Cozy_Aesthetic_Smart_Storage_Elegant_Decor_q9owg6.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 24, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544128/download_22_htesyd.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 25, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544138/download_21_cbbc8x.jpg", "label": "Bedroom Suite", "category": "Bedroom" },
+    { "id": 26, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544137/download_19_yrjlrr.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 27, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544121/Sala_de_jantar_toda_branca_com_plafon_de_cristais_e_mesa_16_cadeiras_vbkj5e.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 28, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544122/download_23_bixbcs.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 29, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544124/Dine_in_style_with_these_elegant_upholstered_chairs_designed_for_modern_living__cqc8y9.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 30, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544125/ImagiCraft_s_AIart_bytlme.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 31, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544116/26_Open_Dining_Areas_That_Still_Feel_Elevated_lwxi2g.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 32, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544115/Black_Walnut_Dining_Table__Steel_Trapezoid_Legs_Handcrafted_Reclaimed_Wood_obl5ow.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 33, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544117/51_Dining_Room_Design_Ideas_that_Embrace_Bold_Contrasts_xf6rv7.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 34, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544119/download_24_jcuszp.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 35, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544116/uulg7hezch2m7orporux.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 36, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1777544118/Elegant_Neutral_Dining_Room_Decor_with_a_Stunning_Dark_Wood_Table_evauz4.jpg", "label": "Dining Space", "category": "Dining Space" },
+    { "id": 37, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252205/Study-002_zekod6.jpg", "label": "Study Room", "category": "Study Room" },
+    { "id": 38, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252205/Study-003_yjbty3.jpg", "label": "Study Room", "category": "Study Room" },
+    { "id": 39, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252206/Study-004_hmzvdv.jpg", "label": "Study Room", "category": "Study Room" },
+    { "id": 40, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252207/Study-005_iwryrd.jpg", "label": "Study Room", "category": "Study Room" },
+    { "id": 41, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252208/Study-006_bot1gj.jpg", "label": "Study Room", "category": "Study Room" }
   ]
 }
-
+  
 }
+
+
