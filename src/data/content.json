@@ -1,7 +1,7 @@
 {
   "hero": {
     "brand": "BARRY",
-    "tagline": "interiors",
+    "tagline": "Interiors",
     "heading": ["Elevate Your Interior",
     " with Sophisticated Design"] ,
     "subtext": "Discover modern luxury living spaces crafted with minimal elegance.",
@@ -154,8 +154,57 @@
     { "id": 40, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252207/Study-005_iwryrd.jpg", "label": "Study Room", "category": "Study Room" },
     { "id": 41, "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780252208/Study-006_bot1gj.jpg", "label": "Study Room", "category": "Study Room" }
   ]
-}
-  
-}
+},
 
+"services": {
+  "items": [
+    {
+      "id": 1,
+      "icon": "layout",
+      "title": "Interior Design",
+      "description": "Full end-to-end interior design service covering space planning, material selection, furniture curation, and styling. We handle everything from the first sketch to the final reveal.",
+      "price": "Starting from ₦1,500,000"
+    },
+    {
+      "id": 2,
+      "icon": "ruler",
+      "title": "Space Planning",
+      "description": "We analyse your space and create a detailed layout plan that maximises flow, function, and comfort. Perfect for new builds or spaces that need a complete rethink.",
+      "price": "Starting from ₦350,000"
+    },
+    {
+      "id": 3,
+      "icon": "lamp",
+      "title": "Lighting Design",
+      "description": "Lighting transforms a space more than any other element. We design layered lighting systems that combine ambient, task, and accent lighting to create the perfect atmosphere.",
+      "price": "Starting from ₦280,000"
+    },
+    {
+      "id": 4,
+      "icon": "sofa",
+      "title": "Furniture Curation",
+      "description": "We source and curate furniture pieces that match your style, space, and budget. Every piece is selected with intention — nothing generic, nothing out of place.",
+      "price": "Starting from ₦500,000"
+    },
+    {
+      "id": 5,
+      "icon": "briefcase",
+      "title": "Project Management",
+      "description": "We manage the entire project from start to finish — coordinating contractors, suppliers, and deliveries so you don't have to. You just show up to the reveal.",
+      "price": "Starting from ₦400,000"
+    }
+  ],
+  "process": [
+    { "step": "01", "title": "Discovery", "description": "We start with a detailed consultation to understand your vision, lifestyle, budget, and timeline." },
+    { "step": "02", "title": "Concept", "description": "We develop mood boards, floor plans, and material palettes that bring your vision to life on paper." },
+    { "step": "03", "title": "Execution", "description": "Our team coordinates every detail — from procurement to installation — with precision and care." },
+    { "step": "04", "title": "Handover", "description": "We do a final walkthrough together, making sure every detail is perfect before we hand over your space." }
+  ],
+  "whyUs": [
+    { "icon": "star", "title": "15+ Years Experience", "description": "Over a decade of delivering luxury interiors across Lagos, Abuja, and Port Harcourt." },
+    { "icon": "shield", "title": "Quality Guaranteed", "description": "We work only with trusted suppliers and contractors who meet our strict standards of quality." },
+    { "icon": "heart", "title": "Client Focused", "description": "Your vision is our priority. We listen, advise, and deliver spaces that feel personal and intentional." }
+  ]
+}
+}
 
