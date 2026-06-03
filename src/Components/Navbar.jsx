@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { LuMenu, LuX } from 'react-icons/lu'
@@ -13,6 +13,17 @@ const navLinks = [
 const Navbar = () => {
   const location = useLocation()
   const [menuOpen, setMenuOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // if user scrolled more than 80px, set scrolled to true
+      setScrolled(window.scrollY > 80)
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   return (
     <>
@@ -20,7 +31,11 @@ const Navbar = () => {
         initial={{ y: -60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="absolute top-0 left-0 w-full flex justify-between items-center px-6 md:px-20 py-6 z-30 text-white"
+        className={`fixed top-0 left-0 w-full flex justify-between items-center px-6 md:px-20 py-6 z-30 text-white transition-all duration-500 ${
+  scrolled
+    ? "bg-[#080808]/95 backdrop-blur-sm border-b border-white/5"
+    : "bg-transparent border-b border-transparent"
+}`}
       >
         {/* Logo */}
         <Link to="/">
@@ -70,7 +85,7 @@ const Navbar = () => {
           </Link>
         </motion.div>
 
-        {/* Mobile Hamburger Button */}
+        {/* Mobile Hamburger */}
         <motion.button
           onClick={() => setMenuOpen(!menuOpen)}
           whileTap={{ scale: 0.9 }}
@@ -91,7 +106,6 @@ const Navbar = () => {
             transition={{ duration: 0.4, ease: "easeOut" }}
             className="fixed inset-0 bg-[#080808] z-20 flex flex-col justify-center items-center gap-8 md:hidden"
           >
-            {/* Links */}
             {navLinks.map((item, index) => (
               <motion.div
                 key={item.label}
@@ -113,7 +127,6 @@ const Navbar = () => {
               </motion.div>
             ))}
 
-            {/* CTA Button */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
