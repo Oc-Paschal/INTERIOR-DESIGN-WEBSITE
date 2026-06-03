@@ -6,8 +6,8 @@
     " with Sophisticated Design"] ,
     "subtext": "Discover modern luxury living spaces crafted with minimal elegance.",
     "buttons": [
-      { "label": "Explore Portfolio", "variant": "primary" },
-      { "label": "View Services", "variant": "outline" }
+      { "label": "Explore Portfolio", "variant": "primary", "path":"/portfolio" },
+      { "label": "View Services", "variant": "outline", "path":"/services" }
     ],
     "navLinks": ["Home", "Portfolio", "Services", "About"]
   },

@@ -1,20 +1,21 @@
 import { motion } from "framer-motion";
 import content from "../data/content.json";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const { heading, subtext, buttons } = content.hero;
 
   return (
     <div
-      style={{ backgroundImage: "url('/images/Simple Warm Modern Home Virtual Background _ Zoom Living Room _ Zoom Background Living Room _ Zoom Backgrounds _ Virtual Background _ - Etsy.jpg')" }}
+      style={{
+        backgroundImage:
+          "url('/images/Simple Warm Modern Home Virtual Background _ Zoom Living Room _ Zoom Background Living Room _ Zoom Backgrounds _ Virtual Background _ - Etsy.jpg')",
+      }}
       className="bg-center bg-cover h-screen filter brightness-90"
     >
       <div className="absolute inset-0 bg-black/70"></div>
 
       <div className="relative z-10 text-white px-6 md:px-15 flex flex-col justify-center h-full">
-
-        
-
         <div className="max-w-2xl mt-20">
           <motion.div
             initial={{ width: 0, opacity: 0 }}
@@ -48,19 +49,20 @@ const Hero = () => {
             className="flex gap-4"
           >
             {buttons.map((btn) => (
-              <motion.button
-                key={btn.label}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={
-                  btn.variant === "primary"
-                    ? "bg-green-700 px-6 py-3 rounded hover:bg-green-600 transition"
-                    : "border border-gray-400 px-6 py-3 rounded hover:bg-white hover:text-black transition"
-                }
-              >
-                {btn.label}
-              </motion.button>
-            ))}
+  <Link key={btn.label} to={btn.path}>
+    <motion.button
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      className={
+        btn.variant === "primary"
+          ? "bg-green-700 px-6 py-3 rounded hover:bg-green-600 transition"
+          : "border border-gray-400 px-6 py-3 rounded hover:bg-white hover:text-black transition"
+      }
+    >
+      {btn.label}
+    </motion.button>
+  </Link>
+))}
           </motion.div>
         </div>
       </div>
