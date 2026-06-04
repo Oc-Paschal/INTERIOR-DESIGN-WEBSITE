@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { data, Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { LuMenu, LuX } from "react-icons/lu";
+import content from "../data/content.json"
+
+const {brand,tagline} = content.hero;
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -40,7 +43,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/">
           <h1 className="text-2xl font-semibold tracking-wide">
-            BARRY <span className="text-gray-400 text-sm">interiors</span>
+            {brand} <span className="text-gray-400 text-sm">{tagline}</span>
           </h1>
         </Link>
 
