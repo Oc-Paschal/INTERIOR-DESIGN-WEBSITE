@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import content from "../data/content.json"
+import content from "../data/content.json";
+import { Link } from "react-router-dom";
 
 const stats = content.stats
 
@@ -82,6 +83,7 @@ export default function StatsSection() {
         </div>
 
         {/* Button */}
+        <Link to= "/About">
         <motion.button
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -93,6 +95,7 @@ export default function StatsSection() {
         >
           Learn About Us
         </motion.button>
+        </Link>
 
       </div>
     </section>

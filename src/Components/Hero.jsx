@@ -49,20 +49,20 @@ const Hero = () => {
             className="flex gap-4"
           >
             {buttons.map((btn) => (
-  <Link key={btn.label} to={btn.path}>
-    <motion.button
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-      className={
-        btn.variant === "primary"
-          ? "bg-green-700 px-6 py-3 rounded hover:bg-green-600 transition"
-          : "border border-gray-400 px-6 py-3 rounded hover:bg-white hover:text-black transition"
-      }
-    >
-      {btn.label}
-    </motion.button>
-  </Link>
-))}
+              <Link key={btn.label} to={btn.path}>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className={
+                    btn.variant === "primary"
+                      ? "bg-green-700 px-6 py-3 rounded hover:bg-green-600 transition"
+                      : "border border-gray-400 px-6 py-3 rounded hover:bg-white hover:text-black transition"
+                  }
+                >
+                  {btn.label}
+                </motion.button>
+              </Link>
+            ))}
           </motion.div>
         </div>
       </div>
