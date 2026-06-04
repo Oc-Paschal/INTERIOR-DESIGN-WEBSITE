@@ -205,6 +205,52 @@
     { "icon": "shield", "title": "Quality Guaranteed", "description": "We work only with trusted suppliers and contractors who meet our strict standards of quality." },
     { "icon": "heart", "title": "Client Focused", "description": "Your vision is our priority. We listen, advise, and deliver spaces that feel personal and intentional." }
   ]
+},
+
+
+"about": {
+  "hero": {
+    "heading": "Who We Are",
+    "subtext": "A team of passionate designers dedicated to transforming spaces into experiences"
+  },
+  "story": [
+    {
+      "year": "2008",
+      "title": "Where It All Began",
+      "description": "Barry Interiors was founded in Lagos with a single mission — to bring world-class interior design to Nigerian homes and businesses."
+    },
+    {
+      "year": "2014",
+      "title": "Growing Our Vision",
+      "description": "We expanded our team and portfolio, taking on landmark projects across Abuja and Port Harcourt, establishing ourselves as a leading name in luxury interiors."
+    },
+    {
+      "year": "2020",
+      "title": "Redefining Luxury",
+      "description": "Through a global pandemic we continued to deliver, pivoting to virtual consultations and completing over 40 projects remotely without compromising on quality."
+    },
+    {
+      "year": "2024",
+      "title": "Where We Are Today",
+      "description": "With 15+ years of experience and 200+ completed projects, we continue to push the boundaries of what interior design can be in Africa and beyond."
+    }
+  ],
+  "team": [
+    { "id": 1, "name": "Barry Okafor", "role": "Founder & Lead Designer", "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780566612/Ceo_sqrkrw.jpg" },
+    { "id": 2, "name": "Amaka Nwosu", "role": "Interior Stylist", "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780566627/Interior_stylist_uk8tou.jpg" },
+    { "id": 3, "name": "Tunde Adeyemi", "role": "Space Planner", "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780566640/Space_planner_n8x1ty.jpg" },
+    { "id": 4, "name": "Chioma Eze", "role": "Lighting Specialist", "image": "https://res.cloudinary.com/dnse3sik8/image/upload/q_auto/f_auto/v1780566651/Lightening_p7atv4.jpg" }
+  ],
+  "values":[ 
+    "We believe every space tells a story.",
+    "Luxury is in the details.",
+    "Design should feel personal."
+  ],
+  "whyUs": [
+    { "icon": "star", "title": "15+ Years Experience", "description": "Over a decade of delivering luxury interiors across Lagos, Abuja, and Port Harcourt." },
+    { "icon": "shield", "title": "Quality Guaranteed", "description": "We work only with trusted suppliers and contractors who meet our strict standards of quality." },
+    { "icon": "heart", "title": "Client Focused", "description": "Your vision is our priority. We listen, advise, and deliver spaces that feel personal and intentional." }
+  ]
 }
 }
 
