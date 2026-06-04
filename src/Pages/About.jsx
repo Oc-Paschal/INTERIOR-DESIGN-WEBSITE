@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import content from "../data/content.json";
 import { LuStar, LuShield, LuHeart } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 const { hero, story, team, values, whyUs } = content.about;
 
@@ -229,13 +230,15 @@ const About = () => {
             Let's create something extraordinary together. Reach out and let's
             start the conversation.
           </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-green-700 px-10 py-4 text-white text-xs tracking-widest uppercase rounded hover:bg-green-600 transition"
-          >
-            Get in Touch
-          </motion.button>
+          <Link to="/contact">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-green-700 px-10 py-4 text-white text-xs tracking-widest uppercase rounded hover:bg-green-600 transition"
+            >
+              Get in Touch
+            </motion.button>{" "}
+          </Link>
         </motion.div>
       </section>
     </div>
