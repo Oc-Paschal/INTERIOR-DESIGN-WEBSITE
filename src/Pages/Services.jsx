@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import content from "../data/content.json";
+import { Link } from "react-router-dom";
 import {
   LuLayoutDashboard,
   LuRuler,
@@ -8,6 +9,7 @@ import {
   LuSofa,
   LuBriefcase,
 } from "react-icons/lu";
+
 
 const iconMap = {
   layout: <LuLayoutDashboard size={32} strokeWidth={1.2} />,
@@ -120,6 +122,7 @@ const Services = () => {
                 </p>
 
                 <div className="flex gap-4 mt-auto">
+                  <Link to="/contact">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -127,6 +130,8 @@ const Services = () => {
                   >
                     Get a Quote
                   </motion.button>
+                  </Link>
+                  <Link to="/About">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -134,6 +139,7 @@ const Services = () => {
                   >
                     Learn More
                   </motion.button>
+                  </Link>
                 </div>
               </motion.div>
             </AnimatePresence>
