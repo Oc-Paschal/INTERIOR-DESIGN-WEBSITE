@@ -1,16 +1,27 @@
-# React + Vite
+# Barry Interiors 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-page luxury interior design website built with React + Vite.
 
-Currently, two official plugins are available:
+## Pages
+- Home — Hero, Features, Portfolio Carousel, Stats
+- Portfolio — Filterable image gallery with lightbox and project details
+- Services — Interactive service selector with process breakdown
+- About — Timeline, team, values and why choose us
+- Contact — Contact form with success message and office info
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- React Router
+- React Icons
+- Cloudinary (image hosting)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Scroll-triggered animations throughout
+- Mobile responsive with hamburger menu
+- Transparent navbar that turns dark on scroll
+- Portfolio filter tabs with animated grid
+- Lightbox with project description, materials and pricing
+- JSON-driven content — all data in one content.json file
+- Deployed on Vercel
